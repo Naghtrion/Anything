@@ -9,6 +9,7 @@ public class NomeDoPlugin extends JavaPlugin
     public void onEnable()
     {
         //Código ao ligar
+    	saveDefaultConfig();  // Salva a configuração padrao
         getLogger().log(Level.INFO, "Plugin iniciado com sucesso!");
     }
 
@@ -16,6 +17,7 @@ public class NomeDoPlugin extends JavaPlugin
     public void onDisable()
     {
         //Código ao desligar
+    	saveConfig(); // Salva a configuração
         getLogger().log(Level.INFO, "Plugin desligado com sucesso!");
     }
 }
