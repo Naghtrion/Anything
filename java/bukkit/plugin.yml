@@ -1,0 +1,7 @@
+main: com.naghtrion.nomedoplugin
+name: Nome do plugin
+version: 1.0
+description: Um plugin
+
+author: Naghtrion
+website: http://naghtrion.com/
