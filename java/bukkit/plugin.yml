@@ -1,4 +1,4 @@
-main: com.naghtrion.nomedoplugin
+main: com.naghtrion.nomedoplugin.NomeDaClassePrincipal
 name: Nome do plugin
 version: 1.0
 description: Um plugin
