@@ -3,7 +3,7 @@ package com.naghtrion.nomedoplugin;
 import org.bukkit.plugin.java.JavaPlugin;
 import java.util.logging.Level;
 
-public class NomeDoPlugin extends JavaPlugin
+public class Main extends JavaPlugin
 {
     @Override
     public void onEnable()
