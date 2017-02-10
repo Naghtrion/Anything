@@ -1,4 +1,3 @@
-```php
 <?php
   // imprime da A a Z
   foreach(range('A', 'Z') as $letra) {
@@ -14,4 +13,3 @@
   foreach(range(0, 1000, 100) as $numero) {
       print $numero;
   }
-```
