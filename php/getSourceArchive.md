@@ -1,5 +1,5 @@
 ## Pegar o arquivo para salvar em sql BLOB  
-
+```php
     /**
      * @param $archive
      * @return array
@@ -63,3 +63,4 @@
             '2'      => $archive_conteudo
         ];
     }
+```
