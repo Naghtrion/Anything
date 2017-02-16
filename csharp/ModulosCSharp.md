@@ -19,3 +19,17 @@ public static string removeAcentos(string texto)
     return texto;
 }
 ```
+
+## Modulo para por todas as inicias das palavras em maiúsculo
+```cs
+        public static string upperCaseWords(string frase)
+        {
+            Char[] chars = frase.ToLower().ToCharArray();
+            if (chars[0] != ' ')
+                chars[0] = Convert.ToChar(chars[0].ToString().ToUpper());
+            for (int i = 0; i < chars.Length; i += 1)
+                if (chars[i] == ' ' && chars[i + 1] != ' ')
+                    chars[i + 1] = Convert.ToChar(chars[i + 1].ToString().ToUpper());
+            return new string(chars);
+        }
+        ```
